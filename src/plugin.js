@@ -2,7 +2,7 @@ const plugin = (editor) => {
   editor.addButton('checkbox', {
     tooltip: 'Checkbox',
     icon: 'checkbox',
-    onclick: () => {
+    onclick() {
       editor.insertContent('<input type="checkbox">&nbsp;');
     }
   });
